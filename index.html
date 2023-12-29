@@ -59,7 +59,7 @@
 			if (pn !== "") user = pn;
 			else user = pa;
 			const url = 'upi://pay' + queryString;
-			document.getElementById("name").innerHTML = "Click on Pay Now or Scan QR and Pay using any UPI Apps<br>" + user;
+			document.getElementById("name").innerHTML = "Click on Pay Now or Scan QR & Pay using Any UPI App<br><br>UPI ID:" + user;
 			document.getElementById("linkpe").href = url;
 			(function () {
 				var qr = new QRious({
